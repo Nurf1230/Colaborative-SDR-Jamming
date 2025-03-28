@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box { fill: #1e3a5f; stroke: #3498db; stroke-width: 2; }
+    .module-box { fill: #2c3e50; stroke: #3498db; stroke-width: 1; }
+    .text { fill: white; font-family: Arial, sans-serif; text-anchor: middle; }
+    .module-text { fill: white; font-family: Arial, sans-serif; text-anchor: middle; font-size: 12px; }
+    .arrow { stroke: #3498db; stroke-width: 2; marker-end: url(#arrowhead); }
+    .network-box { fill: #2980b9; stroke: #3498db; stroke-width: 2; }
+    .system-box { fill: #16a085; stroke: #3498db; stroke-width: 2; }
+  </style>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3498db" />
+    </marker>
+  </defs>
+  
+  <!-- 통합형 무전기 #1 -->
+  <rect x="50" y="50" width="200" height="200" rx="10" class="box" />
+  <text x="150" y="80" class="text" font-weight="bold">통합형 무전기 #1</text>
+  
+  <!-- 모듈 #1 -->
+  <rect x="70" y="100" width="160" height="30" rx="5" class="module-box" />
+  <text x="150" y="120" class="module-text">통신 모듈</text>
+  
+  <rect x="70" y="140" width="160" height="30" rx="5" class="module-box" />
+  <text x="150" y="160" class="module-text">탐지/식별 모듈</text>
+  
+  <rect x="70" y="180" width="160" height="30" rx="5" class="module-box" />
+  <text x="150" y="200" class="module-text">재밍 실행 모듈</text>
+  
+  <rect x="70" y="220" width="160" height="30" rx="5" class="module-box" />
+  <text x="150" y="240" class="module-text">네트워크 모듈</text>
+  
+  <!-- 통합형 무전기 #2 -->
+  <rect x="300" y="50" width="200" height="200" rx="10" class="box" />
+  <text x="400" y="80" class="text" font-weight="bold">통합형 무전기 #2</text>
+  
+  <!-- 모듈 #2 -->
+  <rect x="320" y="100" width="160" height="30" rx="5" class="module-box" />
+  <text x="400" y="120" class="module-text">통신 모듈</text>
+  
+  <rect x="320" y="140" width="160" height="30" rx="5" class="module-box" />
+  <text x="400" y="160" class="module-text">탐지/식별 모듈</text>
+  
+  <rect x="320" y="180" width="160" height="30" rx="5" class="module-box" />
+  <text x="400" y="200" class="module-text">재밍 실행 모듈</text>
+  
+  <rect x="320" y="220" width="160" height="30" rx="5" class="module-box" />
+  <text x="400" y="240" class="module-text">네트워크 모듈</text>
+  
+  <!-- 통합형 무전기 #3 -->
+  <rect x="550" y="50" width="200" height="200" rx="10" class="box" />
+  <text x="650" y="80" class="text" font-weight="bold">통합형 무전기 #3</text>
+  
+  <!-- 모듈 #3 -->
+  <rect x="570" y="100" width="160" height="30" rx="5" class="module-box" />
+  <text x="650" y="120" class="module-text">통신 모듈</text>
+  
+  <rect x="570" y="140" width="160" height="30" rx="5" class="module-box" />
+  <text x="650" y="160" class="module-text">탐지/식별 모듈</text>
+  
+  <rect x="570" y="180" width="160" height="30" rx="5" class="module-box" />
+  <text x="650" y="200" class="module-text">재밍 실행 모듈</text>
+  
+  <rect x="570" y="220" width="160" height="30" rx="5" class="module-box" />
+  <text x="650" y="240" class="module-text">네트워크 모듈</text>
+  
+  <!-- 모듈 간 연결 -->
+  <line x1="230" y1="115" x2="320" y2="115" class="arrow" />
+  <line x1="320" y1="115" x2="230" y2="115" class="arrow" />
+  
+  <line x1="480" y1="115" x2="570" y2="115" class="arrow" />
+  <line x1="570" y1="115" x2="480" y2="115" class="arrow" />
+  
+  <line x1="230" y1="155" x2="320" y2="155" class="arrow" />
+  <line x1="320" y1="155" x2="230" y2="155" class="arrow" />
+  
+  <line x1="480" y1="155" x2="570" y2="155" class="arrow" />
+  <line x1="570" y1="155" x2="480" y2="155" class="arrow" />
+  
+  <line x1="230" y1="195" x2="320" y2="195" class="arrow" />
+  <line x1="320" y1="195" x2="230" y2="195" class="arrow" />
+  
+  <line x1="480" y1="195" x2="570" y2="195" class="arrow" />
+  <line x1="570" y1="195" x2="480" y2="195" class="arrow" />
+  
+  <line x1="230" y1="235" x2="320" y2="235" class="arrow" />
+  <line x1="320" y1="235" x2="230" y2="235" class="arrow" />
+  
+  <line x1="480" y1="235" x2="570" y2="235" class="arrow" />
+  <line x1="570" y1="235" x2="480" y2="235" class="arrow" />
+  
+  <!-- 메쉬 네트워크 -->
+  <rect x="50" y="300" width="700" height="50" rx="10" class="network-box" />
+  <text x="400" y="330" class="text" font-weight="bold">자체 메쉬 네트워크 (보조 네트워크)</text>
+  
+  <!-- 무전기와 메쉬 네트워크 연결 -->
+  <line x1="150" y1="250" x2="150" y2="300" class="arrow" />
+  <line x1="400" y1="250" x2="400" y2="300" class="arrow" />
+  <line x1="650" y1="250" x2="650" y2="300" class="arrow" />
+  
+  <!-- 게이트웨이 및 TICN -->
+  <rect x="200" y="400" width="200" height="50" rx="10" class="box" />
+  <text x="300" y="430" class="text" font-weight="bold">주 노드 (게이트웨이)</text>
+  
+  <rect x="450" y="400" width="200" height="50" rx="10" class="network-box" />
+  <text x="550" y="425" class="text" font-weight="bold">TICN 네트워크</text>
+  <text x="550" y="445" class="text" font-size="12">(주 네트워크)</text>
+  
+  <!-- 메쉬 네트워크와 게이트웨이 연결 -->
+  <line x1="400" y1="350" x2="300" y2="400" class="arrow" />
+  
+  <!-- 게이트웨이와 TICN 연결 -->
+  <line x1="400" y1="425" x2="450" y2="425" class="arrow" />
+  <line x1="450" y1="425" x2="400" y2="425" class="arrow" />
+</svg>

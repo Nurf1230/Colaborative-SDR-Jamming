@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box { fill: #1e3a5f; stroke: #3498db; stroke-width: 2; }
+    .standard-box { fill: #2980b9; stroke: #3498db; stroke-width: 2; }
+    .text { fill: white; font-family: Arial, sans-serif; text-anchor: middle; }
+    .title { fill: #3498db; font-family: Arial, sans-serif; font-weight: bold; text-anchor: middle; }
+    .line { stroke: #3498db; stroke-width: 1; stroke-dasharray: 5,5; }
+    .connector { stroke: #3498db; stroke-width: 2; }
+  </style>
+  
+  <!-- 제목 -->
+  <text x="400" y="40" class="title" font-size="24">국방정보기술표준(DITA) 아키텍처</text>
+  <text x="400" y="70" class="title" font-size="16">통합형 전술 무전기 기반 협력적 재밍 대적 드론 방어체계</text>
+  
+  <!-- 중앙 시스템 -->
+  <rect x="300" y="120" width="200" height="80" rx="10" class="box" />
+  <text x="400" y="165" class="text" font-weight="bold">통합형 무전기 체계</text>
+  
+  <!-- 표준 카테고리 -->
+  <rect x="50" y="280" width="150" height="50" rx="10" class="standard-box" />
+  <text x="125" y="310" class="text" font-weight="bold">네트워크</text>
+  
+  <rect x="250" y="280" width="150" height="50" rx="10" class="standard-box" />
+  <text x="325" y="310" class="text" font-weight="bold">메시지 형식</text>
+  
+  <rect x="450" y="280" width="150" height="50" rx="10" class="standard-box" />
+  <text x="525" y="310" class="text" font-weight="bold">데이터 교환</text>
+  
+  <rect x="650" y="280" width="150" height="50" rx="10" class="standard-box" />
+  <text x="725" y="310" class="text" font-weight="bold">보안</text>
+  
+  <rect x="150" y="380" width="150" height="50" rx="10" class="standard-box" />
+  <text x="225" y="410" class="text" font-weight="bold">무선 통신</text>
+  
+  <rect x="500" y="380" width="150" height="50" rx="10" class="standard-box" />
+  <text x="575" y="410" class="text" font-weight="bold">인터페이스</text>
+  
+  <!-- 표준 세부 항목 -->
+  <rect x="50" y="380" width="150" height="150" rx="5" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="125" y="400" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">IPv6</text>
+  <text x="125" y="430" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">IEEE 802.11</text>
+  <text x="125" y="460" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">IEEE 802.15.4</text>
+  
+  <rect x="250" y="380" width="150" height="150" rx="5" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="325" y="400" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">KVMF</text>
+  <text x="325" y="430" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">(Korean Variable</text>
+  <text x="325" y="450" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">Message Format)</text>
+  
+  <rect x="450" y="380" width="150" height="150" rx="5" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="525" y="400" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">XML 스키마</text>
+  <text x="525" y="430" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">JSON</text>
+  
+  <rect x="650" y="380" width="150" height="150" rx="5" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="725" y="400" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">국방 PKI</text>
+  <text x="725" y="430" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">AES-256</text>
+  
+  <rect x="150" y="480" width="150" height="100" rx="5" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="225" y="500" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">MIL-STD-188-220D</text>
+  
+  <rect x="500" y="480" width="150" height="100" rx="5" fill="none" stroke="#3498db" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="575" y="500" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">MIL-STD-1553B</text>
+  <text x="575" y="530" fill="#3498db" font-family="Arial, sans-serif" text-anchor="middle" font-size="12">Ethernet</text>
+  
+  <!-- 연결선 -->
+  <line x1="400" y1="200" x2="125" y2="280" class="connector" />
+  <line x1="400" y1="200" x2="325" y2="280" class="connector" />
+  <line x1="400" y1="200" x2="525" y2="280" class="connector" />
+  <line x1="400" y1="200" x2="725" y2="280" class="connector" />
+  <line x1="400" y1="200" x2="225" y2="380" class="connector" />
+  <line x1="400" y1="200" x2="575" y2="380" class="connector" />
+</svg>

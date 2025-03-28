@@ -1,0 +1,321 @@
+/* 기대 효과 페이지 전용 스타일 */
+
+/* 페이지 배너 */
+.page-banner {
+    background: linear-gradient(rgba(26, 58, 95, 0.8), rgba(46, 93, 75, 0.8)), url('../images/effects-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.page-banner h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.page-banner p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 혁신성 섹션 */
+.innovation-overview {
+    background-color: #f5f5f5;
+}
+
+.innovation-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.innovation-text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* 핵심 혁신 요소 섹션 */
+.key-innovations {
+    background-color: white;
+}
+
+.innovation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.innovation-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.innovation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.innovation-icon {
+    font-size: 2.5rem;
+    color: #1A3A5F;
+    margin-bottom: 20px;
+}
+
+.innovation-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #1A3A5F;
+}
+
+.innovation-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* 군사적 기대효과 섹션 */
+.military-effects {
+    background-color: #f0f4f8;
+}
+
+.effects-visualization {
+    margin-bottom: 40px;
+}
+
+.effects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 30px;
+}
+
+.effect-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.effect-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #1A3A5F;
+    color: white;
+}
+
+.effect-icon {
+    font-size: 1.8rem;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.effect-header h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.effect-content {
+    padding: 20px;
+}
+
+.effect-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.effect-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.effect-content ul li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+/* 기술적 기대효과 섹션 */
+.technical-effects {
+    background-color: white;
+}
+
+.tech-effects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.tech-effect-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.tech-effect-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tech-effect-icon {
+    font-size: 2.5rem;
+    color: #2E5D4B;
+    margin-bottom: 20px;
+}
+
+.tech-effect-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #2E5D4B;
+}
+
+.tech-effect-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* 경제적 기대효과 섹션 */
+.economic-effects {
+    background-color: #f0f4f8;
+}
+
+.economic-visualization {
+    margin-bottom: 40px;
+}
+
+.economic-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+.economic-text h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-weight: 700;
+    color: #1A3A5F;
+}
+
+.economic-text h3:first-child {
+    margin-top: 0;
+}
+
+.economic-text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.economic-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.stat-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #D64045;
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* 향후 발전 방향 섹션 */
+.future-development {
+    background-color: white;
+}
+
+.future-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.roadmap-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.roadmap-icon {
+    font-size: 1.5rem;
+    color: #1A3A5F;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f0f4f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.roadmap-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #1A3A5F;
+}
+
+.roadmap-content p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 991px) {
+    .innovation-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .effects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .economic-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .future-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .economic-stats {
+        grid-template-columns: 1fr;
+    }
+}

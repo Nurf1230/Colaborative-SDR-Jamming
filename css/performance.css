@@ -1,0 +1,303 @@
+/* 주요 성능 페이지 전용 스타일 */
+
+/* 페이지 배너 */
+.page-banner {
+    background: linear-gradient(rgba(26, 58, 95, 0.8), rgba(46, 93, 75, 0.8)), url('../images/performance-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.page-banner h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.page-banner p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 성능 개요 섹션 */
+.performance-overview {
+    background-color: #f5f5f5;
+}
+
+/* 핵심 성능 지표 섹션 */
+.kpi-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.kpi-chart {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.kpi-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.kpi-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.kpi-icon {
+    font-size: 2rem;
+    color: #1A3A5F;
+    margin-bottom: 15px;
+}
+
+.kpi-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.kpi-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2E5D4B;
+    margin-bottom: 10px;
+}
+
+.kpi-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* 기술 사양 섹션 */
+.technical-specifications {
+    background-color: #f0f4f8;
+}
+
+.specs-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.spec-tab {
+    padding: 12px 20px;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    font-weight: 500;
+    color: #333;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.spec-tab:hover {
+    color: #1A3A5F;
+}
+
+.spec-tab.active {
+    color: #1A3A5F;
+    border-bottom: 3px solid #1A3A5F;
+}
+
+.spec-panel {
+    display: none;
+}
+
+.spec-panel.active {
+    display: block;
+}
+
+.spec-table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.spec-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.spec-table th, .spec-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.spec-table th {
+    background-color: #1A3A5F;
+    color: white;
+    font-weight: 500;
+}
+
+.spec-table tr:last-child td {
+    border-bottom: none;
+}
+
+.spec-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* 드론 탐지 성능 섹션 */
+.detection-visualization {
+    margin-bottom: 40px;
+}
+
+.detection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.detection-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.detection-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #1A3A5F;
+    font-weight: 700;
+    text-align: center;
+}
+
+.detection-card ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.detection-card ul li {
+    margin-bottom: 8px;
+}
+
+/* 드론 재밍 성능 섹션 */
+.jamming-performance {
+    background-color: #f0f4f8;
+}
+
+.jamming-visualization {
+    margin-bottom: 40px;
+}
+
+.jamming-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.jamming-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.jamming-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #1A3A5F;
+    font-weight: 700;
+    text-align: center;
+}
+
+.jamming-card ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.jamming-card ul li {
+    margin-bottom: 8px;
+}
+
+/* 소요기술 및 기술 수준 섹션 */
+.technology-visualization {
+    margin-bottom: 40px;
+}
+
+.technology-table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.technology-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.technology-table th, .technology-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.technology-table th {
+    background-color: #1A3A5F;
+    color: white;
+    font-weight: 500;
+}
+
+.technology-table tr:last-child td {
+    border-bottom: none;
+}
+
+.technology-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.technology-note {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.technology-note p {
+    margin-bottom: 5px;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 991px) {
+    .kpi-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .kpi-chart {
+        order: -1;
+    }
+}
+
+@media (max-width: 767px) {
+    .specs-tabs {
+        flex-direction: column;
+    }
+    
+    .spec-tab {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

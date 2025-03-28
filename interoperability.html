@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상호운용성 - 통합형 전술 무전기 기반 협력적 재밍 대적 드론 방어체계</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/interoperability.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">통합형 전술 무전기 드론 방어체계</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">사업 개요</a></li>
+                <li><a href="operation_concept.html">운용 개념</a></li>
+                <li><a href="performance.html">주요 성능</a></li>
+                <li><a href="schedule_budget.html">사업 일정/예산</a></li>
+                <li><a href="effects.html">기대 효과</a></li>
+                <li><a href="interoperability.html" class="active">상호운용성</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-banner">
+        <div class="hero-content">
+            <h1>상호운용성</h1>
+            <p>통합형 전술 무전기 기반 협력적 재밍 대적 드론 방어체계의 상호운용성 및 표준 아키텍처</p>
+        </div>
+    </div>
+
+    <main>
+        <section class="intro-section">
+            <div class="container">
+                <h2>상호운용성 개요</h2>
+                <p>통합형 전술 무전기 기반 협력적 재밍 대적 드론 방어체계는 기존 군 체계와의 원활한 연동 및 정보 교환을 위해 국방 표준을 준수하고 다양한 체계와의 상호운용성을 보장합니다. 본 체계는 독립적으로 운용될 수 있을 뿐만 아니라, 기존 지휘통제체계 및 방공체계와 연동하여 통합된 방어 능력을 제공합니다.</p>
+            </div>
+        </section>
+
+        <section class="operation-concept-section">
+            <div class="container">
+                <h2>운용개념 및 체계 특성</h2>
+                
+                <div class="diagram-container">
+                    <h3>운용개념도</h3>
+                    <div class="diagram">
+                        <img src="images/operation_concept_diagram.svg" alt="운용개념도" class="responsive-diagram">
+                    </div>
+                    <div class="diagram-description">
+                        <p>통합형 무전기 간 연결과 메쉬 네트워크, TICN 네트워크와의 연동을 보여주는 운용개념도입니다. 각 무전기는 통신 모듈, 탐지/식별 모듈, 재밍 실행 모듈, 네트워크 모듈로 구성되어 있으며, 이들이 서로 연결되어 협력적으로 작동합니다.</p>
+                    </div>
+                </div>
+
+                <div class="operation-modes">
+                    <h3>체계운용방식</h3>
+                    <div class="mode-cards">
+                        <div class="mode-card">
+                            <h4>단독 운용</h4>
+                            <p>독립적인 통신 및 드론 방어 체계로 운용</p>
+                        </div>
+                        <div class="mode-card">
+                            <h4>합동 운용</h4>
+                            <p>육·해·공군 합동작전 시 통합 방어체계의 일부로 운용</p>
+                        </div>
+                        <div class="mode-card">
+                            <h4>연합 운용</h4>
+                            <p>연합작전 시 연합군 방어체계와 연동 운용 (NATO 표준 준수)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="network-dual">
+                    <h3>네트워크 이원화 계획</h3>
+                    <div class="network-cards">
+                        <div class="network-card primary">
+                            <h4>주 네트워크</h4>
+                            <p>전술정보통신체계(TICN) 기반 유·무선 네트워크</p>
+                        </div>
+                        <div class="network-card secondary">
+                            <h4>보조 네트워크</h4>
+                            <p>체계 내부 자체 메쉬 네트워크 (주 네트워크 장애 시 자동 전환)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="interconnection-section">
+            <div class="container">
+                <h2>연동성 및 정보교환</h2>
+                
+                <div class="interconnection-systems">
+                    <h3>연동대상체계</h3>
+                    <div class="systems-container">
+                        <div class="systems-group">
+                            <h4>직접연동 체계</h4>
+                            <ul>
+                                <li>전술정보통신체계(TICN)</li>
+                                <li>합동전술데이터링크체계(JTDLS)</li>
+                                <li>지상전술C4I체계</li>
+                                <li>대공경보체계</li>
+                                <li>저고도 레이더 체계</li>
+                                <li>차기 대공 방어체계(미래확보예정)</li>
+                            </ul>
+                        </div>
+                        <div class="systems-group">
+                            <h4>간접연동 체계</h4>
+                            <ul>
+                                <li>합동지휘통제체계(KJCCS)</li>
+                                <li>전장감시체계</li>
+                                <li>방공지휘통제체계</li>
+                                <li>군 위성통신체계</li>
+                                <li>국방 인공지능 체계(미래확보예정)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="diagram-container">
+                    <h3>연동개념도</h3>
+                    <div class="diagram">
+                        <img src="images/interconnection_diagram.svg" alt="연동개념도" class="responsive-diagram">
+                    </div>
+                    <div class="diagram-description">
+                        <p>통합형 무전기 체계와 다양한 외부 시스템 간의 연동 관계를 보여주는 연동개념도입니다. 직접연동 체계와 간접연동 체계가 계층적으로 구성되어 있으며, 각 체계 간의 정보 흐름을 나타냅니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="standards-section">
+            <div class="container">
+                <h2>표준 및 아키텍처</h2>
+                
+                <div class="diagram-container">
+                    <h3>국방정보기술표준(DITA)</h3>
+                    <div class="diagram">
+                        <img src="images/standards_architecture_diagram.svg" alt="표준 아키텍처 다이어그램" class="responsive-diagram">
+                    </div>
+                    <div class="diagram-description">
+                        <p>통합형 무전기 체계가 준수하는 국방정보기술표준(DITA)을 보여주는 다이어그램입니다. 네트워크, 메시지 형식, 데이터 교환, 보안, 무선 통신, 인터페이스 등 다양한 표준을 준수하여 상호운용성을 보장합니다.</p>
+                    </div>
+                </div>
+
+                <div class="standards-details">
+                    <h3>준수 표준 상세</h3>
+                    <div class="standards-grid">
+                        <div class="standard-item">
+                            <h4>네트워크</h4>
+                            <ul>
+                                <li>IPv6</li>
+                                <li>IEEE 802.11</li>
+                                <li>IEEE 802.15.4</li>
+                            </ul>
+                        </div>
+                        <div class="standard-item">
+                            <h4>메시지 형식</h4>
+                            <ul>
+                                <li>KVMF(Korean Variable Message Format)</li>
+                            </ul>
+                        </div>
+                        <div class="standard-item">
+                            <h4>데이터 교환</h4>
+                            <ul>
+                                <li>XML 스키마</li>
+                                <li>JSON</li>
+                            </ul>
+                        </div>
+                        <div class="standard-item">
+                            <h4>보안</h4>
+                            <ul>
+                                <li>국방 PKI</li>
+                                <li>AES-256</li>
+                            </ul>
+                        </div>
+                        <div class="standard-item">
+                            <h4>무선 통신</h4>
+                            <ul>
+                                <li>MIL-STD-188-220D</li>
+                            </ul>
+                        </div>
+                        <div class="standard-item">
+                            <h4>인터페이스</h4>
+                            <ul>
+                                <li>MIL-STD-1553B</li>
+                                <li>Ethernet</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 통합형 전술 무전기 기반 협력적 재밍 대적 드론 방어체계</p>
+            <div class="footer-links">
+                <a href="index.html">사업 개요</a>
+                <a href="operation_concept.html">운용 개념</a>
+                <a href="performance.html">주요 성능</a>
+                <a href="schedule_budget.html">사업 일정/예산</a>
+                <a href="effects.html">기대 효과</a>
+                <a href="interoperability.html">상호운용성</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/interoperability.js"></script>
+</body>
+</html>

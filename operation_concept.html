@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>운용 개념 - 통합형 전술 무전기 기반 협력적 재밍 대적 드론 방어체계</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">통합형 전술 무전기 드론 방어체계</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">사업 개요</a></li>
+                    <li><a href="operation_concept.html" class="active">운용 개념</a></li>
+                    <li><a href="performance.html">주요 성능</a></li>
+                    <li><a href="schedule_budget.html">사업 일정/예산</a></li>
+                    <li><a href="effects.html">기대 효과</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">운용 개념</h1>
+                <p class="hero-subtitle">통합형 전술 무전기 기반 협력적 재밍 대적 드론 방어체계의 다양한 운용 모드와 전술적 활용 방안</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-light">
+        <div class="container">
+            <h2 class="section-title">기본 운용 개념</h2>
+            <p class="section-subtitle">통합형 무전기의 다양한 운용 모드와 기능</p>
+            
+            <div class="concept-diagram">
+                <svg width="100%" height="400" viewBox="0 0 800 400" class="d-block mx-auto">
+                    <!-- 중앙 노드 -->
+                    <rect x="350" y="150" width="100" height="100" rx="10" fill="#1a3a5f" />
+                    <text x="400" y="185" text-anchor="middle" fill="white" font-weight="bold">통합형</text>
+                    <text x="400" y="205" text-anchor="middle" fill="white" font-weight="bold">무전기</text>
+                    
+                    <!-- 통신 모듈 -->
+                    <rect x="150" y="50" width="120" height="80" rx="10" fill="#3182ce" />
+                    <text x="210" y="90" text-anchor="middle" fill="white" font-weight="bold">통신 모듈</text>
+                    <line x1="270" y1="90" x2="350" y2="180" stroke="#666" stroke-width="2" stroke-dasharray="5,5" />
+                    
+                    <!-- 탐지/식별 모듈 -->
+                    <rect x="150" y="270" width="120" height="80" rx="10" fill="#3182ce" />
+                    <text x="210" y="310" text-anchor="middle" fill="white" font-weight="bold">탐지/식별</text>
+                    <text x="210" y="330" text-anchor="middle" fill="white" font-weight="bold">모듈</text>
+                    <line x1="270" y1="310" x2="350" y2="220" stroke="#666" stroke-width="2" stroke-dasharray="5,5" />
+                    
+                    <!-- 재밍 실행 모듈 -->
+                    <rect x="530" y="50" width="120" height="80" rx="10" fill="#3182ce" />
+                    <text x="590" y="90" text-anchor="middle" fill="white" font-weight="bold">재밍 실행</text>
+                    <text x="590" y="110" text-anchor="middle" fill="white" font-weight="bold">모듈</text>
+                    <line x1="530" y1="90" x2="450" y2="180" stroke="#666" stroke-width="2" stroke-dasharray="5,5" />
+                    
+                    <!-- 네트워크 모듈 -->
+                    <rect x="530" y="270" width="120" height="80" rx="10" fill="#3182ce" />
+                    <text x="590" y="310" text-anchor="middle" fill="white" font-weight="bold">네트워크</text>
+                    <text x="590" y="330" text-anchor="middle" fill="white" font-weight="bold">모듈</text>
+                    <line x1="530" y1="310" x2="450" y2="220" stroke="#666" stroke-width="2" stroke-dasharray="5,5" />
+                    
+                    <!-- 데이터 흐름 화살표 -->
+                    <path d="M270,70 C310,70 310,160 350,160" stroke="#e53e3e" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+                    <path d="M270,290 C310,290 310,220 350,220" stroke="#38a169" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+                    <path d="M450,160 C490,160 490,70 530,70" stroke="#38a169" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+                    <path d="M450,220 C490,220 490,290 530,290" stroke="#e53e3e" stroke-width="2" fill="none" marker-end="url(#arrow)" />
+                    
+                    <!-- 화살표 마커 정의 -->
+                    <defs>
+                        <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5"
+                            markerWidth="6" markerHeight="6"
+                            orient="auto-start-reverse">
+                            <path d="M 0 0 L 10 5 L 0 10 z" fill="#666" />
+                        </marker>
+                    </defs>
+                </svg>
+                
+                <div class="grid grid-2 mt-5">
+                    <div class="concept-node">
+                        <h3 class="concept-node-title">통신 모듈</h3>
+                        <p class="concept-node-content">음성 및 데이터 통신 기능을 제공하며, 기존 전술 무전기의 모든 기능을 유지합니다. 드론 방어 모드 활성화 시에도 통신 기능을 유지할 수 있습니다.</p>
+                    </div>
+                    <div class="concept-node">
+                        <h3 class="concept-node-title">탐지/식별 모듈</h3>
+                        <p class="concept-node-content">드론 신호를 탐지하고 드론의 유형을 식별합니다. AI 기반 알고리즘을 통해 감시/정찰용 드론과 공격용 드론을 구분하고, 위협 수준을 평가합니다.</p>
+                    </div>
+                    <div class="concept-node">
+                        <h3 class="concept-node-title">재밍 실행 모듈</h3>
+                        <p class="concept-node-content">드론 유형과 위협 수준에 따라 최적화된 재밍 신호를 생성하고 방사합니다. 선택적 재밍과 고강도 재밍 모드를 지원합니다.</p>
+                    </div>
+                    <div class="concept-node">
+                        <h3 class="concept-node-title">네트워크 모듈</h3>
+                        <p class="concept-node-content">주변 통합형 무전기와 네트워크를 형성하여 협력적 탐지 및 재밍을 가능하게 합니다. 분산 노드 간 정보 공유 및 협업을 지원합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">운용 모드</h2>
+            <p class="section-subtitle">상황과 임무에 따라 선택 가능한 다양한 운용 모드</p>
+            
+            <div class="tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="communication">통신 모드</button>
+                    <button class="tab-btn" data-tab="surveillance">감시 모드</button>
+                    <button class="tab-btn" data-tab="defense">방어 모드</button>
+                    <button class="tab-btn" data-tab="stealth">은밀 감시 모드</button>
+                </div>
+                <div class="tab-contents">
+                    <div id="communication" class="tab-content active">
+                        <div class="grid grid-2">
+                            <div>
+                                <h3 class="mb-3">통신 모드</h3>
+                                <p>일반 전술 무전기로 사용하여 음성 및 데이터 통신을 수행합니다. 이 모드에서는 최소한의 전력으로 백그라운드에서 드론 신호 탐지 기능이 작동합니다.</p>
+                                <ul class="styled-list mt-3">
+                                    <li>음성 통신: 기존 전술 무전기와 동일한 음성 통신 기능</li>
+                                    <li>데이터 통신: 텍스트 메시지, 위치 정보, 상황 보고 등</li>
+                                    <li>암호화 통신: 고급 암호화 알고리즘을 통한 보안 통신</li>
+                                    <li>네트워크 형성: 주변 무전기와 메쉬 네트워크 구성</li>
+                                </ul>
+                            </div>
+                            <div class="image-placeholder">
+                                <i class="fas fa-comments fa-3x"></i>
+                                <p>통신 모드 운용 개념도</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="surveillance" class="tab-content">
+                        <div class="grid grid-2">
+                            <div>
+                                <h3 class="mb-3">감시 모드</h3>
+                                <p>통신 기능을 유지하면서 드론 신호를 적극적으로 탐지하고 모니터링합니다. 드론 탐지 시 사용자에게 알림을 제공하고, 드론 유형 및 위협 수준을 평가합니다.</p>
+                                <ul class="styled-list mt-3">
+                                    <li>광대역 스캔: 드론 제어 및 영상 전송 주파수 대역 스캔</li>
+                                    <li>신호 분석: AI 기반 드론 신호 특성 분석 및 식별</li>
+                                    <li>위협 평가: 드론 유형, 거리, 이동 패턴 기반 위협 수준 평가</li>
+                                    <li>협력적 탐지: 주변 노드와 탐지 정보 공유 및 정확도 향상</li>
+                                </ul>
+                            </div>
+                            <div class="image-placeholder">
+                                <i class="fas fa-search fa-3x"></i>
+                                <p>감시 모드 운용 개념도</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="defense" class="tab-content">
+                        <div class="grid grid-2">
+                            <div>
+                                <h3 class="mb-3">방어 모드</h3>
+                                <p>드론 위협 탐지 시 활성화되는 모드로, 독립 방어와 협력 방어 두 가지 하위 모드를 제공합니다. 드론 유형과 위협 수준에 따라 최적화된 재밍 전략을 실행합니다.</p>
+                                <ul class="styled-list mt-3">
+                                    <li><strong>독립 방어:</strong> 단일 무전기로 드론 재밍 실행, 제한된 효과 범위</li>
+                                    <li><strong>협력 방어:</strong> 주변 무전기와 협력하여 확장된 범위와 강화된 재밍 효과</li>
+                                    <li><strong>선택적 재밍:</strong> 감시/정찰용 드론 대상, 통신 및 센서 기능만 무력화</li>
+                                    <li><strong>고강도 재밍:</strong> 공격용 드론 대상, 모든 시스템 무력화 및 안전 지역 추락 유도</li>
+                                </ul>
+                            </div>
+                            <div class="image-placeholder">
+                                <i class="fas fa-shield-alt fa-3x"></i>
+                                <p>방어 모드 운용 개념도</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="stealth" class="tab-content">
+                        <div class="grid grid-2">
+                            <div>
+                                <h3 class="mb-3">은밀 감시 모드</h3>
+                                <p>최소한의 전자파 방출로 드론을 탐지하고 모니터링하는 모드입니다. 아군의 위치를 노출하지 않으면서 적 드론의 활동을 감시할 수 있습니다.</p>
+                                <ul class="styled-list mt-3">
+                                    <li>수동적 탐지: 드론 신호 수신만 수행, 전자파 방출 최소화</li>
+                                    <li>패턴 분석: 드론 비행 패턴 및 활동 분석으로 의도 파악</li>
+                                    <li>정보 수집: 드론 활동 정보 기록 및 분석</li>
+                                    <li>제한적 통신: 최소한의 암호화된 통신으로 정보 공유</li>
+                                </ul>
+                            </div>
+                            <div class="image-placeholder">
+                                <i class="fas fa-user-secret fa-3x"></i>
+                                <p>은밀 감시 모드 운용 개념도</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-light">
+        <div class="container">
+            <h2 class="section-title">분대급 운용 개념</h2>
+            <p class="section-subtitle">소규모 제대 수준의 효과적인 드론 방어 전략</p>
+            
+            <div class="concept-diagram">
+                <svg width="100%" height="500" viewBox="0 0 800 500" class="d-block mx-auto">
+                    <!-- 배경 지형 -->
+                    <rect x="0" y="0" width="800" height="500" fill="#f0f4f8" rx="10" />
+                    
+                    <!-- 분대원 배치 -->
+                    <!-- 분대장 -->
+                    <circle cx="400" cy="250" r="20" fill="#1a3a5f" />
+                    <text x="400" y="255" text-anchor="middle" fill="white" font-weight="bold">분대장</text>
+                    
+                    <!-- 분대원 1 -->
+                    <circle cx="300" cy="150" r="15" fill="#3182ce" />
+                    <text x="300" y="155" text-anchor="middle" fill="white" font-weight="bold">1</text>
+                    
+                    <!-- 분대원 2 -->
+                    <circle cx="500" cy="150" r="15" fill="#3182ce" />
+                    <text x="500" y="155" text-anchor="middle" fill="white" font-weight="bold">2</text>
+                    
+                    <!-- 분대원 3 -->
+                    <circle cx="250" cy="300" r="15" fill="#3182ce" />
+                    <text x="250" y="305" text-anchor="middle" fill="white" font-weight="bold">3</text>
+                    
+                    <!-- 분대원 4 -->
+                    <circle cx="550" cy="300" r="15" fill="#3182ce" />
+                    <text x="550" y="305" text-anchor="middle" fill="white" font-weight="bold">4</text>
+                    
+                    <!-- 분대원 5 -->
+                    <circle cx="350" cy="400" r="15" fill="#3182ce" />
+                    <text x="350" y="405" text-anchor="middle" fill="white" font-weight="bold">5</text>
+                    
+                    <!-- 분대원 6 -->
+                    <circle cx="450" cy="400" r="15" fill="#3182ce" />
+                    <text x="450" y="405" text-anchor="middle" fill="white" font-weight="bold">6</text>
+                    
+                    <!-- 네트워크 연결 -->
+                    <line x1="400" y1="250" x2="300" y2="150" stroke="#666" stroke-width="2" />
+                    <line x1="400" y1="250" x2="500" y2="150" stroke="#666" stroke-width="2" />
+                    <line x1="400" y1="250" x2="250" y2="300" stroke="#666" stroke-width="2" />
+                    <line x1="400" y1="250" x2="550" y2="300" stroke="#666" stroke-width="2" />
+                    <line x1="400" y1="250" x2="350" y2="400" stroke="#666" stroke-width="2" />
+                    <line x1="400" y1="250" x2="450" y2="400" stroke="#666" stroke-width="2" />
+                    
+                    <!-- 협력적 재밍 범위 -->
+                    <circle cx="400" cy="250" r="200" fill="rgba(49, 130, 206, 0.1)" stroke="#3182ce" stroke-width="2" stroke-dasharray="5,5" />
+                    
+                    <!-- 드론 -->
+                    <path d="M150,100 L170,80 L190,100 L170,120 Z" fill="#e53e3e" />
+                    <text x="170" y="70" text-anchor="middle" fill="#e53e3e" font-weight="bold">적 드론</text>
+                    
+                    <!-- 재밍 신호 -->
+                    <path d="M300,150 Q250,125 170,100" stroke="#e53e3e" stroke-width="2" fill="none" stroke-dasharray="5,5" />
+                    <path d="M400,250 Q300,175 170,100" stroke="#e53e3e" stroke-width="2" fill="none" stroke-dasharray="5,5" />
+                    <path d="M250,300 Q210,200 170,100" stroke="#e53e3e" stroke-width="2" fill="none" stroke-dasharray="5,5" />
+                </svg>
+                
+                <div class="mt-4">
+                    <h3 class="mb-3">분대급 운용 특징</h3>
+                    <div class="grid grid-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="mb-2">분산 배치 및 네트워크 형성</h4>
+                                <p>분대원들이 전술적으로 분산 배치되어 넓은 지역을 커버하면서도 통합형 무전기를 통해 네트워크를 형성하여 협력적 드론 방어 체계를 구축합니다.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="mb-2">협력적 탐지 및 추적</h4>
+                                <p>여러 노드에서 수집된 드론 신호 정보를 종합하여 정확한 드론 위치 추적 및 이동 경로 예측이 가능합니다. 단일 노드보다 향<response clipped><NOTE>To save on context only part of this file has been shown to you. You should retry this tool after you have searched inside the file with `grep -n` in order to find the line numbers of what you are looking for.</NOTE>
